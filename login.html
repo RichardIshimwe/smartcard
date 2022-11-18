@@ -1,0 +1,78 @@
+<!-- <%@page import="serialread.returnstring"%>
+<%@page import="serialread.test6"%> -->
+<html>
+	<head>
+		<title>login form</title>
+                <link rel="stylesheet" href="login.css">
+	</head>
+	<body >
+            <!-- <p><% returnstring demo = new returnstring();
+            test6 t = new test6();
+	        String  name = demo.sends(); 
+                String  man = t.display();
+                String  tea = t.check_con();
+            %>
+        </p>  -->
+        
+<div class="nav-bar">
+    
+    <ul>
+        
+        <li><a href="#">HOME</a></li> 
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">MENU</a></li>
+        
+    </ul>
+    <a class="nav-btn" href="#"><button id="nav_btn">contact us</button></a>
+</div>
+            
+            <div class="logincont">
+                <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-button" onclick="login()" >Log in</button>
+                <button type="button" class="toggle-button" onclick="register()" >Register</button>
+                </div>
+                 <div id="login" class="input-group">
+                     <form method="post" action="database">
+                         <!--action="database"-->
+                    <label><b>Username:</b></label></br>
+                    <input type="text" name="user_name" placeholder="usernmae" required></br>
+                    <label><b>Passcode:</b></label></br>
+                    <input type="password" name="pass_code" placeholder="passcode" required></br>
+                   
+                    <label><b>Your uid:</b></label></br>
+                    <input type="text" name="uid" placeholder="waiting for uid"></br>
+                    <button type="submit" class="form_btn"<b>login</b></button>
+                     </form>
+                 </div>      
+                 <div id="register" class="input-group">
+                    <form method="post" action="databases">
+                    <label><b>Username:</b></label></br>
+                    <input type="text" name="user_name" placeholder="usernmae" id="message" required></br>
+                    <label><b>Passcode:</b></label></br>
+                    <input type="password" name="pass_code" placeholder="passcode" required></br>
+                    <label><b>Email:</b></label></br>
+                    <input type="email" id="email" name="email" placeholder="email in register" required></br>
+                    <label><b>Your uid:</b></label></br>
+<!-- <%=name%>-->   <input type="text" name="uid" value='' id="uid1" placeholder="waiting for uid" ></br> 
+                    <table >
+                     <tr><td>
+                     <input type="checkbox" name="checkbox" id="check" ></td><td><h3><b>I agree terms and conditions</b></h3>
+                    </td>
+                        </tr>
+                    </table>
+                    <button type="submit" class="form_btn" id="submit"><b>Register</b></button>
+                     </form>
+             
+                 </div>  
+            </div>
+                    <button id="use_amount">USE AMOUNT</button>
+                    <button id="add_amount">USE AMOUNT</button>
+                    <button id="lost-card">USE AMOUNT</button>
+    <script src="script.js"></script>      
+   <footer>
+        
+    </footer> 
+	</body>
+  
+</html>

@@ -1,0 +1,324 @@
+body{
+    
+    background-color: 	#371f0e;
+    background-image: url('./smart.jpg');
+    background-size: 900px 580px;
+    background-repeat: no-repeat;
+/*     background-position: left;*/
+   /*  background-size: cover;*/
+    
+}
+*{ 
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+/*header{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 7px 10%;
+    background-color: blanchedalmond;
+    
+}
+
+.logo{
+    
+    cursor: pointer;
+    margin-right: auto;
+    
+}
+
+.nav-links{
+    
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.nav-links li{
+    
+    display: inline-block;
+    padding: 0 20px;
+    background-color: greenyellow;
+    
+}
+
+.nav-links li a{
+    
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav-links li a:hover{
+    
+    color: greenyellow;
+    
+}
+#nav_btn{
+    
+    margin-left: 20px;
+    padding: 9px 25px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgba(221, 198, 148,0.5);
+    transition: all 0.3s ease 0s;
+}
+
+#nav_btn:hover{
+    background-color: rgba(221, 198, 148,1);    
+}
+li, a{
+    
+    font-size: 16px;
+    font-weight: 400;
+}*/
+
+.nav-bar{
+    
+    background-color: blanchedalmond;
+    text-align: left;
+    
+}
+
+.nav-bar ul{
+    
+   display: inline-flex;
+   list-style: none;
+   margin-left: 20px;
+    
+}
+
+.nav-bar ul li{
+    
+width: 100px;
+padding: 10px;
+    
+}
+.nav-bar ul li a{
+text-decoration: none;
+color: black;
+font-weight: 1000;
+
+}
+.active ,.nav-bar ul li:hover{
+    
+    background-color: #DDC694;
+    color: white;
+    
+}
+#nav_btn{
+    
+    /*margin-left: 20px;*/
+    padding: 9px 25px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgba(221, 198, 148,0.5);
+    transition: all 0.3s ease 0s;
+    float: right;
+    font-weight: 400;
+}
+
+#nav_btn:hover{
+    background-color: rgba(221, 198, 148,1);  
+    font-weight: 1000;
+}
+li:hover{
+        color: white;
+
+}
+
+
+
+.input-group{
+    
+    padding: 10px;
+    position: absolute;
+    
+}
+
+.logincont{
+    border: solid;
+    width: 300px;
+    height: 420px;
+    position: relative;
+    /*margin: 6% auto;*/
+    border: 0;
+    border-radius: 10px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 80px;
+    background: transparent;
+    overflow: hidden;
+    background-color: #B37646;
+}
+.logincont input{
+    padding: 8px 4px;
+/*  padding-top:7px;
+    padding-bottom: 7px;*/
+    width: 100%;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: #DDC694;
+    color:black;
+    border: 0;
+ 
+}
+.form_btn{
+    
+    margin: auto;
+    background-color: #DDC694;
+    color: #371f0e;
+    font-size: 18px;
+    
+}
+.form_btn:focus{
+    
+    background: linear-gradient(to right, #84563c, #DDC694);
+    
+}
+
+
+.button-box{
+
+    width: 190px;
+    margin: 15px auto;
+    position: relative;
+    box-shadow: 0 0 10px 4px #DDC694; 
+    border-radius: 30px;
+    
+}
+
+.toggle-button{
+    
+    padding: 13px 25px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    border-radius: 30px;
+    outline: none;
+    position: relative;
+    
+}
+
+#btn{
+    
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #84563c, #DDC694);
+    border-radius: 30px;
+    transition: .2s;
+    
+}
+
+label{
+    
+    font-size: 23px;
+    padding: 8px 0;
+    
+}
+.form_btn{
+    width:200px;
+    margin: 10px 40px;
+    position: relative;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    
+}
+
+#login{
+    
+    left: 0px;
+    
+}
+
+
+#register{
+    
+    left: 450px;
+    
+}
+
+footer{
+    margin-top: 473px;
+    height: 114px;
+    width: 100%;
+    background-color: blanchedalmond;
+    
+}
+#use_amount{
+    
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 430px;
+    margin-left: 40px;
+    background: linear-gradient(to top, #84563c, #DDC694);
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    
+}
+#use_amount:hover{
+    background: #84563c;
+}
+#add_amount{
+    
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 430px;
+    margin-left: 280px;
+    background: linear-gradient(to top, #84563c, #DDC694);
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    
+}
+#add_amount:hover{
+    background: #84563c;
+}
+
+#lost-card{
+    
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    margin-top: 430px;
+    margin-left: 520px;
+    background: linear-gradient(to top, #84563c, #DDC694);
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+       
+}
+#lost-card:hover{
+    background: #84563c;
+}
+#check{
+    position: relative;
+    float: left;
+    margin-left: 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
